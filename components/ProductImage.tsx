@@ -1,10 +1,8 @@
-
-
 import React from 'react';
 
 const ProductImage: React.FC = () => {
-  // Using an external image host for the transparent headphone image
-  const headphoneImageUrl = 'https://i.ibb.co/3kXpYv2/hoco-w65-headphones-clean.png';
+  // Using a local image
+  const headphoneImageUrl = '/assets/images/undefined.png';
 
   return (
     <div className="relative flex justify-center items-center w-full h-full opacity-0 animate-fadeIn" style={{ animationDelay: '0.5s' }}>

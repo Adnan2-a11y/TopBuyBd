@@ -3,12 +3,12 @@ import React from 'react';
 
 const GallerySection: React.FC = () => {
   const images = [
-    'https://i.ibb.co/3kXpYv2/hoco-w65-headphones-clean.png',
-    'https://images.unsplash.com/photo-1546435770-a3e426bf4022?q=80&w=2070&auto=format&fit=crop',
-    'https://images.unsplash.com/photo-1583394838336-acd977736f90?q=80&w=1968&auto=format&fit=crop',
-    'https://images.unsplash.com/photo-1585298723682-711556143f77?q=80&w=1974&auto=format&fit=crop',
-    'https://images.unsplash.com/photo-1590658268037-6bf12165a84c?q=80&w=2070&auto=format&fit=crop',
-    'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=2070&auto=format&fit=crop',
+    '/assets/images/Hoco W65 gallery image1.jpg',
+    '/assets/images/Hoco W65 gallery image2.jpeg',
+    '/assets/images/Hoco W65 gallery image3.jpeg',
+    '/assets/images/Hoco W65 gallery image4.jpeg',
+    '/assets/images/Hoco W65 gallery image5.jpeg',
+    '/assets/images/Hoco W65 gallery image6.jpeg',
   ];
 
   return (
